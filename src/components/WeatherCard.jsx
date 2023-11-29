@@ -1,5 +1,5 @@
 import { useState } from "react"
-import './styles/WeatherCard.css'
+import './styles/weatherCard.css'
 const WeatherCard = ({ weather, temp }) => {
   const [changeTemp, setChangeTemp] = useState(true)
   const handleChangeTemp = () => setChangeTemp(!changeTemp)
