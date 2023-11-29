@@ -1,0 +1,79 @@
+.weather {
+    width: 100%;
+    min-height: 80vh;
+    max-width: 350px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 0.8em;
+    padding: 2em 1.5em;
+}
+
+.weather__tittle {
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.weather__location {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.weather__body {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.weather__condition {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+
+.weather__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather__list {
+    display: grid;
+    gap: 1em;
+    margin-bottom: 120px;
+}
+
+.weather__item {
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    font-weight: 500;
+}
+
+.weather__label {
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+.temperature {
+    font-size: 4em;
+    text-align: center;
+    font-weight: 500;
+}
+
+.temp__button{
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border-radius: 15px;
+    filter: grayscale(0.5);
+    border: none;
+    background-color: beige;
+    font-weight: 300;
+}
+
+.temp__button:hover {
+    transform: scale(1.1);
+}
